@@ -1,0 +1,28 @@
+/* コンテナ全体 */
+.secret-item {
+  position: relative; /* 子要素の配置基準 */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  aspect-ratio: 4 / 3;
+  cursor: pointer;
+}
+
+/* 画像自体 */
+.secret-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ★盾の役割：これがあることで画像に直接触れられなくなる */
+.shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* 透明 */
+  z-index: 10;             /* 画像の上に配置 */
+}

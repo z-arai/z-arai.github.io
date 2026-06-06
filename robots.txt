@@ -1,0 +1,113 @@
+# =========================================================
+# 1. AI・LLM（大規模言語モデル）学習用クローラー（最新網羅）
+# =========================================================
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: Google-Extended
+User-agent: Anthropic-ai
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: PerplexityBot
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: FacebookBot
+User-agent: meta-externalagent
+User-agent: Applebot-Extended
+User-agent: Diffbot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: YouBot
+User-agent: ImagesiftBot
+Disallow: /
+
+# =========================================================
+# 2. アーカイブ・世界規模クローラー・論文/コピペチェック
+# =========================================================
+User-agent: ia_archiver
+User-agent: archive.org_bot
+User-agent: ccbot
+User-agent: TurnitinBot
+User-agent: panscient.com
+User-agent: BLEXBot
+User-agent: webmeup-crawler
+User-agent: GrapeshotCrawler
+Disallow: /
+
+# =========================================================
+# 3. SEO解析・バックリンク・マーケティングツール
+# =========================================================
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: Rogerbot
+User-agent: PetalBot
+User-agent: AspiegelBot
+User-agent: MegaIndex.ru
+User-agent: magpie-crawler
+User-agent: barkrowler
+User-agent: SEOkicks
+User-agent: Screaming Frog SEO Spider
+User-agent: DataForSeoBot
+User-agent: xenu
+User-agent: SeznamBot
+User-agent: MauiBot
+User-agent: VelenPublicWebCrawler
+User-agent: BDCbot
+User-agent: linkdexbot
+User-agent: serpstatbot
+User-agent: SeobilityBot
+User-agent: spbot
+User-agent: ExtLinksBot
+User-agent: YisouSpider
+User-agent: trendictionbot
+User-agent: MojeekBot
+User-agent: zgrab
+Disallow: /
+
+# =========================================================
+# 4. 画像収集・プレビュー・SNS展開・汎用ダウンロードツール
+# =========================================================
+User-agent: Googlebot-Image
+User-agent: YandexImages
+User-agent: Baiduspider-image
+User-agent: msnbot-media
+User-agent: Pinterestbot
+User-agent: Yeti
+User-agent: NaverBot
+User-agent: Slurp
+User-agent: Applebot
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+User-agent: Slackbot-LinkExpanding
+User-agent: WhatsApp
+User-agent: TelegramBot
+User-agent: Discordbot
+User-agent: SkypeUriPreview
+User-agent: LinkedInBot
+User-agent: Embedly
+User-agent: vkShare
+User-agent: outbrain
+User-agent: Wget
+User-agent: curl
+User-agent: HTTrack
+User-agent: python-requests
+User-agent: scrapy
+User-agent: libwww-perl
+Disallow: /
+
+# =========================================================
+# 5. 上記以外のすべてのボットに対する最終防壁
+# =========================================================
+User-agent: *
+# すべてのボットに対して画像ファイルのアクセスを禁止
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.webp$
+Disallow: /*.svg$
+# 秘密のページへの立ち入りを禁止（ご自身のファイル名に変更してください）
+Disallow: /henoheno.html

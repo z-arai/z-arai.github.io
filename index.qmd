@@ -1,0 +1,212 @@
+---
+image: profile.jpeg
+about:
+  template: solana
+  id: profile-block  
+---
+
+[Zenta ARAI/新井善太]{style="font-size: 2.25em; font-weight: bold;"}
+
+::: {#profile-block}
+
+2024年より、早稲田大学社会科学部学部生
+
+- 安中進ゼミ所属（2025年より）
+- 学術サークル政友会学際会幹事（2025年より）
+
+
+Student at Waseda University’s School of Social Sciences <br>(from 2024)
+
+- Member of the Annaka Seminar
+- Secretary of the Seiyūkai Interdisciplinary Society,<br> an academic club
+
+東アジアの安全保障や中国研究に関心があります。
+
+主に量的テキスト分析を方法として用います。
+
+My interest is National Security in East-Asia <br>and Area study in China.
+
+I primarily employ quantitative text-analysis.
+
+:::
+
+::: {.callout-note appearance="simple"}
+## News & Updates
+
+**2026.05.05** 台湾・新竹県五峰郷で[政策提案](https://www.youtube.com/watch?v=P2qMIpy36uI)を行いました。<br>
+**2026.04.23** 政治学若手研究者フォーラムにて[発表](https://sites.google.com/view/jecps/2026%E6%98%A5)を行いました
+:::
+
+## Publications
+
+::: {.panel-tabset}
+
+### Academical Articles (not reviewed)
+
+1. 新井善太（2025）<br>[「『台湾有事』言説分析──主要紙と地方紙──」](https://wcms.waseda.jp/em/6a22f61566026)<br>『早稲田大学社会科学総合研究「別冊 2025 年度学生論文集」』早稲田大学社会科学総合学術院 pp.53-63
+
+### Journalistic Articles
+
+1. 新井善太（2024）<br>[「軍事的要衝地、金門島での所感─台湾有事に対する疑問とともに─」](https://wcms.waseda.jp/em/6a22f5836bbbb)<br>『BRIDGE2025』早稲田大学政友会 pp.104-108
+
+### Presentation
+
+1. 新井善太（2026）<br>[「候補者の容姿は選挙を有利にする？―参院選・都議選からの証拠―」](https://wcms.waseda.jp/em/6a22ef16a2c73)<br>[政治学若手研究者フォーラム2026年春季研究会](https://sites.google.com/view/jecps/2026%E6%98%A5)
+
+
+:::
+
+## Academic Activities
+  
+  
+**「現代中国理解 Ⅵ・Ⅶ」**[修了](ttps://iush.jp/seminar/report/china/)<br>（公益財団法人 大学セミナーハウス 主催 | 2025年1月・2025年12月）
+
+* 2024年度は東京大学の川島真教授の分科会（国際関係+台湾）に参加
+    
+  * 研究課題は「中国はなぜ台湾統一を望むのか？」
+  
+* 2025年度は慶應義塾大学の小嶋華津子教授の分科会（政治）に参加
+  
+  * 研究課題は「『台湾統一プロジェクト』はどのような利益共同体を産むのか？」
+  
+**2025年度「応用社会科学 RA ブートキャンプ」** [修了](https://www.ra-bootcamp.jp/_files/ugd/523699_c7e6cf36ce714d7ea18ab94bfac1f5b6.pdf)<br>（応用社会科学 RA ブートキャンプ運営事務局 主催 | 2025年9月）
+
+  * リサーチ・アシスタントとして必要な研究支援技術や考えを習得。
+
+
+## Work
+
+**早稲田大学にて研究補助者として従事**<br>（2025年6月 〜 2026年3月）<br>
+
+* 業務内容は科学研究費助成事業（[25K16547](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K16547/)）に関し<br>「文書資料からのデータ収集と整理」
+
+
+
+**地経学研究所にてインターンとして勤務**<br>（2026年4月 〜 5月）<br>
+
+* 中国語能力を活かした業務遂行
+
+## Resources
+
+[研究報告](https://wcms.waseda.jp/em/6a22ef16a2c73)
+
+- 政治学若手研究者フォーラム2026年春季研究会で行った発表の録画
+
+## Skills
+
+國立臺灣師範大學華語文教學系所舉辦之短期華語與文化密集研習課程
+<br>（Chinese Language & Culture Immersion Program） 修了
+
+
+
+
+
+
+<script>
+// 【トップページの防衛システム】
+// 右クリックとソース表示（F12, Ctrl+Uなど）をブロック
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'C' || e.key === 'c' || e.key === 'J' || e.key === 'j')) || 
+    (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's')) ||
+    (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.key === 'U' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// 【コナミコマンド＆スクレイピング回避型ワープ】
+const secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let commandPosition = 0;
+
+document.addEventListener('keydown', function(e) {
+  if (e.key.toLowerCase() === secretCode[commandPosition].toLowerCase()) {
+    commandPosition++;
+    if (commandPosition === secretCode.length) {
+      // "henoheno.html" (aGVub2hlbm8uaHRtbA==) を3分割して隠蔽
+      const p1 = "aGVub";
+      const p2 = "2hlbm";
+      const p3 = "8uaHRtbA==";
+      window.location.href = atob(p1 + p2 + p3);
+      commandPosition = 0;
+    }
+  } else {
+    commandPosition = 0;
+  }
+});
+</script>
+
+```{=html}
+<style>
+/* 1. 全ての画像に対する「盾」のスタイル */
+.secret-item {
+  position: relative;
+}
+.shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* 透明なレイヤー */
+  z-index: 100;           /* 画像の前面に配置 */
+}
+</style>
+
+<script>
+// 2. 右クリックメニューの全面禁止
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+// 3. F12キーやショートカットキー(Ctrl+U, Ctrl+Sなど)によるソース閲覧・保存の禁止
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'i' || e.key === 'j')) || 
+    (e.metaKey && e.altKey && (e.key === 'i' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// 4. 画像要素に「盾」を自動追加する処理（既存のimgタグにdivを追加）
+document.querySelectorAll('.secret-item').forEach(item => {
+  const shield = document.createElement('div');
+  shield.className = 'shield';
+  item.appendChild(shield);
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

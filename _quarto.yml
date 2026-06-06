@@ -1,0 +1,27 @@
+project:
+  type: website
+  resources:
+    - robots.txt
+
+website:
+  title: "Zenta ARAI | 新井善太"
+  navbar:
+    background: "#e3f2fd"  # ← ここでヘッダーを淡い水色に指定
+    type: light            # ← ここで文字色を暗い色（黒・濃いグレー）に自動調整
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    fontsize: 1.2em
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex, nofollow, noimageindex, noarchive, nosnippet">
+        <meta name="pinterest" content="nopin" description="Sorry, you cannot save images from this website.">
+
+editor: visual
+

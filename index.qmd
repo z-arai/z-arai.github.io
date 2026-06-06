@@ -34,7 +34,7 @@ I primarily employ quantitative text-analysis.
 ## News & Updates
 
 **2026.05.05** 台湾・新竹県五峰郷で[政策提案](https://www.youtube.com/watch?v=P2qMIpy36uI)を行いました。<br>
-**2026.04.23** 政治学若手研究者フォーラムにて[発表](https://sites.google.com/view/jecps/2026%E6%98%A5)を行いました
+**2026.04.23** 政治学若手研究者フォーラムにて発表を行いました
 :::
 
 ## Publications
@@ -57,9 +57,9 @@ I primarily employ quantitative text-analysis.
 :::
 
 ## Academic Activities
+
   
-  
-**「現代中国理解 Ⅵ・Ⅶ」**[修了](ttps://iush.jp/seminar/report/china/)<br>（公益財団法人 大学セミナーハウス 主催 | 2025年1月・2025年12月）
+**「現代中国理解 Ⅵ・Ⅶ」**[修了](https://iush.jp/seminar/report/china/)<br>（公益財団法人 大学セミナーハウス 主催 | 2025年1月・2025年12月）
 
 * 2024年度は東京大学の川島真教授の分科会（国際関係+台湾）に参加
     
@@ -72,6 +72,10 @@ I primarily employ quantitative text-analysis.
 **2025年度「応用社会科学 RA ブートキャンプ」** [修了](https://www.ra-bootcamp.jp/_files/ugd/523699_c7e6cf36ce714d7ea18ab94bfac1f5b6.pdf)<br>（応用社会科学 RA ブートキャンプ運営事務局 主催 | 2025年9月）
 
   * リサーチ・アシスタントとして必要な研究支援技術や考えを習得。
+
+**第2回「みんなの台湾修学旅行ナビ」台湾教育旅行プランニング大賞**  [佳作](https://snet-taiwan.jp/accomplishment/%E7%AC%AC2%E5%9B%9E%E3%80%8C%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E5%8F%B0%E6%B9%BE%E4%BF%AE%E5%AD%A6%E6%97%85%E8%A1%8C%E3%83%8A%E3%83%93%E3%80%8D%E5%8F%B0%E6%B9%BE%E6%95%99%E8%82%B2%E6%97%85%E8%A1%8C)<br>（日本台湾教育支援研究者ネットワーク 主催 | 2024年12月）
+
+  * タイトルは[「離島としての台湾─交流・戦争・統治─」](https://wcms.waseda.jp/em/6a239c406edb0)
 
 
 ## Work

@@ -4,7 +4,7 @@ project:
     - robots.txt
 
 website:
-  title: "Zenta ARAI | 新井善太"
+  title: "Z. ARAI"
   navbar:
     background: "#e3f2fd"  # ← ここでヘッダーを淡い水色に指定
     type: light            # ← ここで文字色を暗い色（黒・濃いグレー）に自動調整

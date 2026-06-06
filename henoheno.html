@@ -228,69 +228,6 @@ ul.task-list li input[type="checkbox"] {
         font-weight: bold;
       }
       </style>
-<pre><code>    &lt;div class="secret-gallery"&gt;
-    &lt;div class="secret-item" onclick="openModal('2026年5月', '台湾・新竹県五峰郷（清泉部落）でのフィールドワーク成果発表', '2026.04.06.jpeg', 'aHR0cHM6Ly9leGFtcGxlLmNvbS9zbGlkZTE=')"&gt;
-    &lt;img src="2026.04.06.jpeg" alt="Secret Photo 1"&gt;
-    &lt;/div&gt;
-    
-    &lt;div class="secret-item" onclick="openModal('2026年4月', '人民日報5万件のデータを用いたSTM分析プロジェクト進捗', '2025.05.02.jpeg', 'aHR0cHM6Ly9leGFtcGxlLmNvbS9zbGlkZTI=')"&gt;
-    &lt;img src="2025.05.02.jpeg" alt="Secret Photo 2"&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div id="slide-modal" class="modal-overlay" onclick="closeModal(event)"&gt;
-    &lt;div class="modal-content" onclick="event.stopPropagation()"&gt;
-    &lt;span class="modal-close" onclick="closeModal(event)"&gt;✖&lt;/span&gt;
-    &lt;div id="m-date" class="modal-date"&gt;&lt;/div&gt;
-    &lt;div id="m-desc" class="modal-desc"&gt;&lt;/div&gt;
-    &lt;img id="m-thumb" class="modal-thumb" src="" alt="Thumbnail"&gt;
-    &lt;br&gt;
-    &lt;a id="m-link" class="modal-link" href="#" target="_blank" rel="noopener noreferrer"&gt;スライドはこちらから&lt;/a&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;script&gt;
-    // モーダル制御 ＆ URL復号化
-  function openModal(date, desc, imgSrc, encryptedLink) {
-    document.getElementById('m-date').innerText = date;
-    document.getElementById('m-desc').innerText = desc;
-    document.getElementById('m-thumb').src = imgSrc;
-    document.getElementById('m-link').href = atob(encryptedLink);
-    document.getElementById('slide-modal').style.display = 'flex';
-  }
-  
-  function closeModal(e) {
-    document.getElementById('slide-modal').style.display = 'none';
-    document.getElementById('m-link').href = "#"; // リンクの証拠隠滅
-  }
-  
-  // 防衛機能1: 右クリックとソース表示の完全禁止
-  document.addEventListener('contextmenu', e =&gt; e.preventDefault());
-  document.addEventListener('keydown', e =&gt; {
-    if (
-      e.key === 'F12' || 
-      (e.ctrlKey &amp;&amp; e.shiftKey &amp;&amp; (e.key === 'I' || e.key === 'i' || e.key === 'C' || e.key === 'c' || e.key === 'J' || e.key === 'j')) || 
-      (e.ctrlKey &amp;&amp; (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's')) ||
-      (e.metaKey &amp;&amp; e.altKey &amp;&amp; (e.key === 'I' || e.key === 'i' || e.key === 'U' || e.key === 'u'))
-    ) {
-      e.preventDefault();
-    }
-  });
-  
-  // 防衛機能2: 改ざん監視システム（MutationObserver）
-  const defenseStyle = document.getElementById('defense-style');
-  const observer = new MutationObserver((mutations) =&gt; {
-    mutations.forEach((mutation) =&gt; {
-      if (mutation.removedNodes.length &gt; 0 || mutation.type === 'attributes' || mutation.type === 'characterData') {
-        window.location.reload();
-      }
-    });
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
-  if (defenseStyle) {
-    observer.observe(defenseStyle, { attributes: true, childList: true, characterData: true, subtree: true });
-  }
-  &lt;/script&gt;</code></pre>
 
 
 </section>

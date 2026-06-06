@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "henoheno.html",
-    "href": "henoheno.html",
-    "title": "Secret Room",
-    "section": "",
-    "text": "秘密の部屋へようこそ\nここでは大変お世話になった、 早稲田大学公認サークル政友会で行った勉強会のスライドがご覧になれます！\n\n    &lt;div class=\"secret-gallery\"&gt;\n    &lt;div class=\"secret-item\" onclick=\"openModal('2026年5月', '台湾・新竹県五峰郷（清泉部落）でのフィールドワーク成果発表', '2026.04.06.jpeg', 'aHR0cHM6Ly9leGFtcGxlLmNvbS9zbGlkZTE=')\"&gt;\n    &lt;img src=\"2026.04.06.jpeg\" alt=\"Secret Photo 1\"&gt;\n    &lt;/div&gt;\n    \n    &lt;div class=\"secret-item\" onclick=\"openModal('2026年4月', '人民日報5万件のデータを用いたSTM分析プロジェクト進捗', '2025.05.02.jpeg', 'aHR0cHM6Ly9leGFtcGxlLmNvbS9zbGlkZTI=')\"&gt;\n    &lt;img src=\"2025.05.02.jpeg\" alt=\"Secret Photo 2\"&gt;\n    &lt;/div&gt;\n    &lt;/div&gt;\n    \n    &lt;div id=\"slide-modal\" class=\"modal-overlay\" onclick=\"closeModal(event)\"&gt;\n    &lt;div class=\"modal-content\" onclick=\"event.stopPropagation()\"&gt;\n    &lt;span class=\"modal-close\" onclick=\"closeModal(event)\"&gt;✖&lt;/span&gt;\n    &lt;div id=\"m-date\" class=\"modal-date\"&gt;&lt;/div&gt;\n    &lt;div id=\"m-desc\" class=\"modal-desc\"&gt;&lt;/div&gt;\n    &lt;img id=\"m-thumb\" class=\"modal-thumb\" src=\"\" alt=\"Thumbnail\"&gt;\n    &lt;br&gt;\n    &lt;a id=\"m-link\" class=\"modal-link\" href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\"&gt;スライドはこちらから&lt;/a&gt;\n    &lt;/div&gt;\n    &lt;/div&gt;\n    \n    &lt;script&gt;\n    // モーダル制御 ＆ URL復号化\n  function openModal(date, desc, imgSrc, encryptedLink) {\n    document.getElementById('m-date').innerText = date;\n    document.getElementById('m-desc').innerText = desc;\n    document.getElementById('m-thumb').src = imgSrc;\n    document.getElementById('m-link').href = atob(encryptedLink);\n    document.getElementById('slide-modal').style.display = 'flex';\n  }\n  \n  function closeModal(e) {\n    document.getElementById('slide-modal').style.display = 'none';\n    document.getElementById('m-link').href = \"#\"; // リンクの証拠隠滅\n  }\n  \n  // 防衛機能1: 右クリックとソース表示の完全禁止\n  document.addEventListener('contextmenu', e =&gt; e.preventDefault());\n  document.addEventListener('keydown', e =&gt; {\n    if (\n      e.key === 'F12' || \n      (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'C' || e.key === 'c' || e.key === 'J' || e.key === 'j')) || \n      (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's')) ||\n      (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.key === 'U' || e.key === 'u'))\n    ) {\n      e.preventDefault();\n    }\n  });\n  \n  // 防衛機能2: 改ざん監視システム（MutationObserver）\n  const defenseStyle = document.getElementById('defense-style');\n  const observer = new MutationObserver((mutations) =&gt; {\n    mutations.forEach((mutation) =&gt; {\n      if (mutation.removedNodes.length &gt; 0 || mutation.type === 'attributes' || mutation.type === 'characterData') {\n        window.location.reload();\n      }\n    });\n  });\n  observer.observe(document.body, { childList: true, subtree: true });\n  if (defenseStyle) {\n    observer.observe(defenseStyle, { attributes: true, childList: true, characterData: true, subtree: true });\n  }\n  &lt;/script&gt;"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Zenta ARAI | 新井善太",
@@ -54,5 +40,12 @@
     "title": "Zenta ARAI | 新井善太",
     "section": "Skills",
     "text": "Skills\n國立臺灣師範大學華語文教學系所舉辦之短期華語與文化密集研習課程 （Chinese Language & Culture Immersion Program） 修了"
+  },
+  {
+    "objectID": "henoheno.html",
+    "href": "henoheno.html",
+    "title": "Secret Room",
+    "section": "",
+    "text": "秘密の部屋へようこそ\nここでは大変お世話になった、 早稲田大学公認サークル政友会で行った勉強会のスライドがご覧になれます！"
   }
 ]

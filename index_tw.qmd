@@ -1,0 +1,165 @@
+---
+image: profile.jpeg
+about:
+  template: solana
+  id: profile-block  
+---
+
+[Zenta ARAI/ 新井善太]{style="font-size: 2.25em; font-weight: bold;"}
+
+::: {#profile-block}
+
+早稻田大學 社會科學系 本科生<br>（2024年起）
+
+- 安中進研究室 成員（2025年起）
+- 學術性社團政友會學際會 幹事（2025年起）
+
+我的研究興趣為東亞和平及中國區域研究。
+
+主要使用量化文本分析方法。
+
+:::
+
+::: {.callout-note appearance="simple"}
+## News & Updates
+
+**2026.06.23** 在所屬研究室發表「美國威脅論？─ 搖擺不定的視角 ─」<br>
+**2026.06.22** 透過所屬社團與[國立臺灣大學國家安全與戰略研究中心 (NTUN3SI)](https://ntun3si.space/)進行意見交流<br>
+**2026.05.05** 於台灣新竹縣五峰鄉進行[政策提案](https://www.youtube.com/watch?v=P2qMIpy36uI)<br>
+**2026.04.23** 於政治學青年研究者論壇 (JECPS) 2026年春季研究會進行發表
+:::
+
+## Publications
+
+::: {.panel-tabset}
+
+### Academic Articles (not reviewed)
+
+1. 新井善太 (2025)<br>[「『台湾有事』言説分析──主要紙と地方紙──」](https://wcms.waseda.jp/em/6a22f61566026)<br>(「台灣有事」論述分析：全國性報紙與地方報紙)<br>*(註：連結文章僅提供日文版。繁體中文版準備中。)*<br>『早稲田大学社会科学総合研究「別冊 2025 年度学生論文集」』早稲田大学社会科学総合学術院 pp.53-63<br>(*早稻田大學社會科學綜合學術院《早稻田大學社會科學綜合研究「別冊 2025年度學生論文集」》*, pp. 53-63)
+
+### Journalistic Articles
+
+1. 新井善太 (2024)<br>[「軍事的要衝地、金門島での所感─台湾有事に対する疑問とともに─」](https://wcms.waseda.jp/em/6a22f5836bbbb)<br>(軍事要衝金門島之所見：伴隨對台灣有事的疑問)<br>*(註：連結文章僅提供日文版。繁體中文版準備中。)*<br>『BRIDGE2025』早稲田大学政友会 pp.104-108<br>(*《BRIDGE 2025》*, 早稻田大學政友會, pp. 104-108)
+
+### Presentations
+
+1. 新井善太 (2026)<br>[「候補者の容姿は選挙を有利にする？―参院選・都議選からの証拠―」](https://wcms.waseda.jp/em/6a22ef16a2c73)<br>(候選人的外貌是否有利於選舉？來自參議院與東京都議會選舉的證據)<br>*(註：連結發表資料僅提供日文版。繁體中文版準備中。)*<br>[政治学若手研究者フォーラム2026年春季研究会](https://sites.google.com/view/jecps/2026%E6%98%A5)<br>*(政治學青年研究者論壇 (JECPS) 2026年春季研究會)*
+
+:::
+
+## Academic Activities
+  
+**「現代中國理解 Ⅵ・Ⅶ」** [結業](https://iush.jp/seminar/report/china/)<br>（公益財團法人 大學研討會中心 主辦 | 2025年1月・2025年12月）
+
+* 2024年度參加東京大學川島真教授帶領的分科會（國際關係+台灣）。
+  * 研究課題：「中國為何渴望統一台灣？」
+  
+* 2025年度參加慶應義塾大學小嶋華津子教授帶領的分科會（政治）。
+  * 研究課題：「『統一台灣計畫』會產生什麼樣的利益共同體？」
+  
+**2025年度「應用社會科學研究助理 (RA) 訓練營」** [結業](https://www.ra-bootcamp.jp/_files/ugd/523699_c7e6cf36ce714d7ea18ab94bfac1f5b6.pdf)<br>（應用社會科學 RA 訓練營營運事務局 主辦 | 2025年9月）
+
+  * 學習並掌握身為研究助理所需之研究支援技能與思維。
+
+**第2屆「大家的台灣修學旅行導覽」台灣教育旅行企劃大賞** [佳作](https://snet-taiwan.jp/accomplishment/%E7%AC%AC2%E5%9B%9E%E3%80%8C%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E5%8F%B0%E6%B9%BE%E4%BF%AE%E5%AD%A6%E6%97%85%E8%A1%8C%E3%83%8A%E3%83%93%E3%80%8D%E5%8F%B0%E6%B9%BE%E6%95%99%E8%82%B2%E6%97%85%E8%A1%8C)<br>（日本台灣教育支援研究者網絡 (SNET Taiwan) 主辦 | 2024年12月）
+
+  * 企劃名稱：[「離島としての台湾─交流・戦争・統治─」](https://wcms.waseda.jp/em/6a239c406edb0)<br>(作為離島的台灣：交流、戰爭與統治)<br>*(註：連結文本僅提供日文版。繁體中文版準備中。)*
+
+
+## Work
+
+**早稻田大學 研究助理**<br>（2025年6月 〜 2026年3月）<br>
+
+* 參與日本科學研究費助成事業（[25K16547](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K16547/)）專案，負責「文獻資料的收集與整理」。
+
+**地經學研究所 (IOG) 實習生**<br>（2026年4月 〜 5月）<br>
+
+* 運用中文能力執行相關業務。
+
+## Resources
+
+[研究報告](https://wcms.waseda.jp/em/6a22ef16a2c73)<br>*(註：連結影片/報告僅提供日文版。繁體中文版準備中。)*
+
+- 於政治學青年研究者論壇 (JECPS) 2026年春季研究會發表之錄影。
+
+## Skills
+
+國立臺灣師範大學華語文教學系所舉辦之短期華語與文化密集研習課程
+<br>(Chinese Language & Culture Immersion Program) 結業
+
+
+<script>
+// 【首頁防禦系統】
+// 封鎖右鍵選單與檢視原始碼 (F12, Ctrl+U 等)
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'C' || e.key === 'c' || e.key === 'J' || e.key === 'j')) || 
+    (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's')) ||
+    (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.key === 'U' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// 【Konami 秘技 & 防爬蟲跳轉機制】
+const secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let commandPosition = 0;
+
+document.addEventListener('keydown', function(e) {
+  if (e.key.toLowerCase() === secretCode[commandPosition].toLowerCase()) {
+    commandPosition++;
+    if (commandPosition === secretCode.length) {
+      // 透過分割 Base64 來隱藏 "henoheno.html" (aGVub2hlbm8uaHRtbA==)
+      const p1 = "aGVub";
+      const p2 = "2hlbm";
+      const p3 = "8uaHRtbA==";
+      window.location.href = atob(p1 + p2 + p3);
+      commandPosition = 0;
+    }
+  } else {
+    commandPosition = 0;
+  }
+});
+</script>
+
+```{=html}
+<style>
+/* 1. 針對所有圖片加上透明「防護盾」的樣式 */
+.secret-item {
+  position: relative;
+}
+.shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* 透明圖層 */
+  z-index: 100;           /* 覆蓋於圖片最上層 */
+}
+</style>
+
+<script>
+// 2. 全面封鎖右鍵選單
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+// 3. 封鎖透過 F12 鍵或快捷鍵 (Ctrl+U, Ctrl+S 等) 檢視/儲存原始碼
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'i' || e.key === 'j')) || 
+    (e.metaKey && e.altKey && (e.key === 'i' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// 4. 自動為圖片元素加上「防護盾」的處理 (在現有的 img 標籤上增加 div)
+document.querySelectorAll('.secret-item').forEach(item => {
+  const shield = document.createElement('div');
+  shield.class新井善太 = 'shield';
+  item.appendChild(shield);
+});
+</script>

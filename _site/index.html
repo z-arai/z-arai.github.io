@@ -69,8 +69,26 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<meta name="robots" content="noindex, nofollow, noimageindex, noarchive, nosnippet">
-<meta name="pinterest" content="nopin" description="Sorry, you cannot save images from this website.">
+<script>
+// 【言語自動判定・振り分けシステム】
+// 無限ループを防ぐため、ブラウザを開いて最初の1回だけ実行します
+if (!sessionStorage.getItem('langRedirected')) {
+  sessionStorage.setItem('langRedirected', 'true');
+
+  // ユーザーのブラウザの言語設定を取得
+  const userLang = navigator.language || navigator.userLanguage;
+
+  // 台湾（繁体字）からのアクセスの場合
+  if (userLang.startsWith('zh-TW') || userLang === 'zh-HK') {
+    window.location.replace("index-tw.html");
+  }
+  // 日本語（ja）以外からのアクセスの場合（一括で英語へ）
+  else if (!userLang.startsWith('ja')) {
+    window.location.replace("index-en.html");
+  }
+  // 日本語の場合はそのままこのページ（index.html）に留まる
+}
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -97,6 +115,27 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🌐 Language</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">日本語</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index_en.html">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./index_tw.html">
+ <span class="dropdown-text">繁體中文</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -143,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Member of the Annaka Seminar</li>
 <li>Secretary of the Seiyūkai Interdisciplinary Society,<br> an academic club</li>
 </ul>
-<p>東アジアの安全保障や中国研究に関心があります。</p>
+<p>東アジアの平和や中国研究に関心があります。</p>
 <p>主に量的テキスト分析を方法として用います。</p>
 <p>My interest is National Security in East-Asia <br>and Area study in China.</p>
 <p>I primarily employ quantitative text-analysis.</p>
@@ -164,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>2026.05.05</strong> 台湾・新竹県五峰郷で<a href="https://www.youtube.com/watch?v=P2qMIpy36uI">政策提案</a>を行いました。<br> <strong>2026.04.23</strong> 政治学若手研究者フォーラムにて発表を行いました</p>
+<p><strong>2026.06.23</strong> 所属ゼミにて「米国脅威論？─ ブレる視点 ─」を発表しました<br> <strong>2026.06.22</strong> 所属サークルにて<a href="https://ntun3si.space/">台湾大学國家安全與戰略研究</a>と意見交換を行いました<br> <strong>2026.05.05</strong> 台湾・新竹県五峰郷で<a href="https://www.youtube.com/watch?v=P2qMIpy36uI">政策提案</a>を行いました<br> <strong>2026.04.23</strong> 政治学若手研究者フォーラム2026年春季研究会にて発表を行いました</p>
 </div>
 </div>
 <section id="publications" class="level2">

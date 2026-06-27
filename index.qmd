@@ -3,6 +3,28 @@ image: profile.jpeg
 about:
   template: solana
   id: profile-block  
+include-in-header:
+  text: |
+    <script>
+    // 【言語自動判定・振り分けシステム】
+    // 無限ループを防ぐため、ブラウザを開いて最初の1回だけ実行します
+    if (!sessionStorage.getItem('langRedirected')) {
+      sessionStorage.setItem('langRedirected', 'true');
+      
+      // ユーザーのブラウザの言語設定を取得
+      const userLang = navigator.language || navigator.userLanguage; 
+      
+      // 台湾（繁体字）からのアクセスの場合
+      if (userLang.startsWith('zh-TW') || userLang === 'zh-HK') {
+        window.location.replace("index-tw.html");
+      } 
+      // 日本語（ja）以外からのアクセスの場合（一括で英語へ）
+      else if (!userLang.startsWith('ja')) {
+        window.location.replace("index-en.html");
+      }
+      // 日本語の場合はそのままこのページ（index.html）に留まる
+    }
+    </script>
 ---
 
 [Zenta ARAI/新井善太]{style="font-size: 2.25em; font-weight: bold;"}
@@ -20,7 +42,7 @@ Student at Waseda University’s School of Social Sciences <br>(from 2024)
 - Member of the Annaka Seminar
 - Secretary of the Seiyūkai Interdisciplinary Society,<br> an academic club
 
-東アジアの安全保障や中国研究に関心があります。
+東アジアの平和や中国研究に関心があります。
 
 主に量的テキスト分析を方法として用います。
 
@@ -33,8 +55,10 @@ I primarily employ quantitative text-analysis.
 ::: {.callout-note appearance="simple"}
 ## News & Updates
 
-**2026.05.05** 台湾・新竹県五峰郷で[政策提案](https://www.youtube.com/watch?v=P2qMIpy36uI)を行いました。<br>
-**2026.04.23** 政治学若手研究者フォーラムにて発表を行いました
+**2026.06.23** 所属ゼミにて「米国脅威論？─ ブレる視点 ─」を発表しました<br>
+**2026.06.22** 所属サークルにて[台湾大学國家安全與戰略研究](https://ntun3si.space/)と意見交換を行いました<br>
+**2026.05.05** 台湾・新竹県五峰郷で[政策提案](https://www.youtube.com/watch?v=P2qMIpy36uI)を行いました<br>
+**2026.04.23** 政治学若手研究者フォーラム2026年春季研究会にて発表を行いました
 :::
 
 ## Publications

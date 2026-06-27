@@ -11,6 +11,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+    right:
+      - text: "🌐 Language"  # アイコンではなく絵文字とテキストで確実に表示
+        menu:
+          - text: "日本語"
+            href: index.qmd
+          - text: "English"
+            href: index_en.qmd
+          - text: "繁體中文"
+            href: index_tw.qmd
 
 format:
   html:

@@ -1,0 +1,164 @@
+---
+image: profile.jpeg
+about:
+  template: solana
+  id: profile-block  
+---
+
+[Zenta ARAI]{style="font-size: 2.25em; font-weight: bold;"}
+
+::: {#profile-block}
+
+Undergraduate student at Waseda University’s School of Social Sciences <br>(from 2024)
+
+- Member of the Annaka Seminar (from 2025)
+- Secretary of the Seiyukai Interdisciplinary Society, an academic club (from 2025)
+
+My interest is the peace in East-Asia <br>and Area study in China.
+
+I primarily employ quantitative text-analysis.
+
+:::
+
+::: {.callout-note appearance="simple"}
+## News & Updates
+
+**2026.06.23** Presented "The 'US Threat' Theory? — Fluctuating Perspectives —" at my seminar<br>
+**2026.06.22** Exchanged views with the [Center for National Security and Strategic Studies, National Taiwan University (NTUN3SI)](https://ntun3si.space/) via my club<br>
+**2026.05.05** Made a [policy proposal](https://www.youtube.com/watch?v=P2qMIpy36uI) in Wufeng Township, Hsinchu County, Taiwan<br>
+**2026.04.23** Presented at the Japanese Early Career Political Scientists (JECPS) Forum 2026 Spring Study Session
+:::
+
+## Publications
+
+::: {.panel-tabset}
+
+### Academic Articles (not reviewed)
+
+1. Zenta ARAI (2025)<br>[「『台湾有事』言説分析──主要紙と地方紙──」](https://wcms.waseda.jp/em/6a22f61566026)<br>(An Analysis of the "Taiwan Emergency" Discourse: Major and Regional Newspapers)<br>*(Note: The linked article is in Japanese only. English version is in preparation.)*<br>『早稲田大学社会科学総合研究「別冊 2025 年度学生論文集」』早稲田大学社会科学総合学術院 pp.53-63<br>(*Waseda University Institute for Advanced Social Sciences, "Separate Volume: 2025 Student Paper Collection"*, pp. 53-63)
+
+### Journalistic Articles
+
+1. Zenta ARAI (2024)<br>[「軍事的要衝地、金門島での所感─台湾有事に対する疑問とともに─」](https://wcms.waseda.jp/em/6a22f5836bbbb)<br>(Impressions from Kinmen Island, a Military Strategic Point: Along with Questions Regarding a Taiwan Emergency)<br>*(Note: The linked article is in Japanese only. English version is in preparation.)*<br>『BRIDGE2025』早稲田大学政友会 pp.104-108<br>(*BRIDGE 2025*, Waseda University Seiyukai, pp. 104-108)
+
+### Presentations
+
+1. Zenta ARAI (2026)<br>[「候補者の容姿は選挙を有利にする？―参院選・都議選からの証拠―」](https://wcms.waseda.jp/em/6a22ef16a2c73)<br>(Does a Candidate's Appearance Provide an Electoral Advantage? Evidence from the House of Councillors and Tokyo Metropolitan Assembly Elections)<br>*(Note: The linked presentation is in Japanese only. English version is in preparation.)*<br>[Japanese Early Career Political Scientists (JECPS) Forum 2026 Spring Study Session](https://sites.google.com/view/jecps/2026%E6%98%A5)<br>
+
+:::
+
+## Academic Activities
+  
+**"Understanding Contemporary China VI & VII"** [Completed](https://iush.jp/seminar/report/china/)<br>(Hosted by the Inter-University Seminar House | Jan 2025 & Dec 2025)
+
+* In 2024, participated in the subcommittee (International Relations + Taiwan) led by Prof. Shin Kawashima of the University of Tokyo.
+  * Research topic: "Why does China desire the unification of Taiwan?"
+  
+* In 2025, participated in the subcommittee (Politics) led by Prof. Kazuko Kojima of Keio University.
+  * Research topic: "What kind of interest community does the 'Taiwan Unification Project' generate?"
+  
+**2025 "Applied Social Sciences RA Bootcamp"** [Completed](https://www.ra-bootcamp.jp/_files/ugd/523699_c7e6cf36ce714d7ea18ab94bfac1f5b6.pdf)<br>(Hosted by the Applied Social Sciences RA Bootcamp Executive Committee | Sep 2025)
+
+  * Acquired essential research support skills and methodologies required as a Research Assistant.
+
+**2nd "Taiwan Educational Trip Planning Award"** [Honorable Mention](https://snet-taiwan.jp/accomplishment/%E7%AC%AC2%E5%9B%9E%E3%80%8C%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E5%8F%B0%E6%B9%BE%E4%BF%AE%E5%AD%A6%E6%97%85%E8%A1%8C%E3%83%8A%E3%83%93%E3%80%8D%E5%8F%B0%E6%B9%BE%E6%95%99%E8%82%B2%E6%97%85%E8%A1%8C)<br>(Hosted by SNET Taiwan (Japan-Taiwan Education Support Network) | Dec 2024)
+
+  * Title: [「離島としての台湾─交流・戦争・統治─」](https://wcms.waseda.jp/em/6a239c406edb0)<br>(Taiwan as an Island: Interaction, War, and Governance)<br>*(Note: The linked text is in Japanese only. English version is in preparation.)*
+
+
+## Work
+
+**Research Assistant at Waseda University**<br>(Jun 2025 - Mar 2026)<br>
+
+* Tasks involved "Data collection and organization from documentary materials" for a Grant-in-Aid for Scientific Research project ([25K16547](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-25K16547/)).
+
+**Intern at the Institute of Geoeconomics (IOG)**<br>(Apr 2026 - May 2026)<br>
+
+* Executed tasks utilizing Chinese language proficiency.
+
+## Resources
+
+[Research Report](https://wcms.waseda.jp/em/6a22ef16a2c73)<br>*(Note: The linked video/report is in Japanese only. English version is in preparation.)*
+
+- Recording of the presentation given at the Japanese Early Career Political Scientists (JECPS) Forum 2026 Spring Study Session.
+
+## Skills
+
+Chinese Language & Culture Immersion Program<br>(Department of Chinese as a Second Language, National Taiwan Normal University) Completed
+
+
+<script>
+// [Top page defense system]
+// Block right-click and source viewing (F12, Ctrl+U, etc.)
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'C' || e.key === 'c' || e.key === 'J' || e.key === 'j')) || 
+    (e.ctrlKey && (e.key === 'U' || e.key === 'u' || e.key === 'S' || e.key === 's')) ||
+    (e.metaKey && e.altKey && (e.key === 'I' || e.key === 'i' || e.key === 'U' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// [Konami code & scraping avoidance warp]
+const secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+let commandPosition = 0;
+
+document.addEventListener('keydown', function(e) {
+  if (e.key.toLowerCase() === secretCode[commandPosition].toLowerCase()) {
+    commandPosition++;
+    if (commandPosition === secretCode.length) {
+      // Hide "henoheno.html" (aGVub2hlbm8uaHRtbA==) by splitting it into 3 parts
+      const p1 = "aGVub";
+      const p2 = "2hlbm";
+      const p3 = "8uaHRtbA==";
+      window.location.href = atob(p1 + p2 + p3);
+      commandPosition = 0;
+    }
+  } else {
+    commandPosition = 0;
+  }
+});
+</script>
+
+```{=html}
+<style>
+/* 1. "Shield" style for all images */
+.secret-item {
+  position: relative;
+}
+.shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Transparent layer */
+  z-index: 100;           /* Place in front of the image */
+}
+</style>
+
+<script>
+// 2. Completely block right-click menu
+document.addEventListener('contextmenu', e => e.preventDefault());
+
+// 3. Block source viewing/saving via F12 or shortcut keys (Ctrl+U, Ctrl+S, etc.)
+document.addEventListener('keydown', e => {
+  if (
+    e.key === 'F12' || 
+    (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'i' || e.key === 'j')) || 
+    (e.metaKey && e.altKey && (e.key === 'i' || e.key === 'u'))
+  ) {
+    e.preventDefault();
+  }
+});
+
+// 4. Process to automatically add a "shield" to image elements (adds div to existing img tags)
+document.querySelectorAll('.secret-item').forEach(item => {
+  const shield = document.createElement('div');
+  shield.classZenta ARAI = 'shield';
+  item.appendChild(shield);
+});
+</script>
